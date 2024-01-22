@@ -13,7 +13,7 @@ Side information: To use the application in a special environment the author acc
 A list of technologies used within the project:
 * [macOS Sonoma](https://support.apple.com/en-us/HT214032): macOS Sonoma Version 14.1.2 (23B92)
 * [Visual Studio Code](https://code.visualstudio.com/): Version: 1.85.0 (Universal) Electron: 25.9.7 ElectronBuildId: 25551756 Chromium: 114.0.5735.289 Node.js: 18.15.0 V8: 11.4.183.29-electron.0
-* [Cypress](https://www.cypress.io/) Cypress 13.6.1
+* [Cypress](https://www.cypress.io/) Cypress 13.6.3
 * [@shelex/cypress-allure-plugin](https://www.npmjs.com/package/@shelex/cypress-allure-plugin) @shelex/cypress-allure-plugin 2.40.1
 
 Feel free to copy the project from this repository into your IDE run the test, and make sure all the scenarios are automated.
