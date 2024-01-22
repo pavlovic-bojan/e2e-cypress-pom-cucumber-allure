@@ -16,6 +16,7 @@
     "cucumber",
     "AllureReport",
     "JavaScript",
+    "Gherkin",
     "GitHubActions"
   ],
   "author": "Boajn Pavlovic <bojanpavlovicoffice@gmail.com>",
