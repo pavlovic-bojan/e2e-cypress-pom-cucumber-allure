@@ -1,7 +1,7 @@
 {
   "name": "allure-cypress-cucumber",
   "version": "1.0.0",
-  "description": "This repository is the result of my independent project to train certain things in E2E QA Automation. In the project, is used Cypress, Cucumber, Allure Report, and Page Object Model with JavaScript.",
+  "description": "This repository is the result of my independent project to train certain things in E2E QA Automation. In the project, is used Cypress, Cucumber, Allure Report, and Page Object Model with JavaScript & GitHub Actions.",
   "main": "index.js",
   "scripts": {
     "cy:run": "cypress run --env --browser=chrome allure=true --reporter mocha-allure-reporter",
@@ -15,7 +15,8 @@
     "e2e",
     "cucumber",
     "AllureReport",
-    "JavaScript"
+    "JavaScript",
+    "GitHubActions"
   ],
   "author": "Boajn Pavlovic <bojanpavlovicoffice@gmail.com>",
   "license": "ISC",
