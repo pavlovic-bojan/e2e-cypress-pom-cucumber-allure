@@ -1,0 +1,38 @@
+{
+  "name": "allure-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "This repository is the result of my independent project to train certain things in E2E QA Automation. In the project, is used Cypress, Cucumber, Allure Report, and Page Object Model with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --env --browser=chrome allure=true --reporter mocha-allure-reporter",
+    "allure:report": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots cypress/videos || true",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "cucumber",
+    "AllureReport",
+    "JavaScript"
+  ],
+  "author": "Boajn Pavlovic <bojanpavlovicoffice@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.26.0",
+    "allure-mocha": "^2.11.1",
+    "cypress": "^13.6.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "install": "^0.13.0",
+    "npm": "^10.3.0"
+  },
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber/Tests"
+  }
+}

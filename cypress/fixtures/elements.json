@@ -1,0 +1,13 @@
+{
+    "HomePageTitle": "ĐAK SPORTSKA OPREMA | Đak Sport",
+    "LoginLinkPath": ".link.authorization-link",
+    
+    "LoginPageTitle": "Prijava korisnika | Đak Sport",
+    "LoginUsernamePath": "#email",
+    "LoginPasswordPath": "[name=\"login[password]\"]",
+    "LoginButtonPath": ".action.login.primary",
+    "LoginEmailErrorPath": "#email-error",
+    "LoginPasswordErrorPath": "#pass-error",
+
+    "UserFullNamePath": ".logged-in"
+}

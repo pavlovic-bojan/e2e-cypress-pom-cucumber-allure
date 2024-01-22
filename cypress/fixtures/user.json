@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "lastName": "test",
+    "dayOfBirth": "10",
+    "monthOfBirth": "May",
+    "yearOfBirth": "1990",
+    "email": "test@mailinator.com",
+    "password": "123456789a@"
+}
