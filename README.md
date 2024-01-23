@@ -11,7 +11,7 @@ Side information: To use the application in a special environment the author acc
 ### Execution of tests in CI/CD using GitHub Actions
 ***
 [The results of the last test execution are visible at this link](https://pavlovic-bojan.github.io/e2e-cypress-pom-cucumber-allure/)
-At the moment when the project was created, all the tests were passing, but in the meantime, if the owners changed something on the webshop and some tests failed, maybe all the tests failed due to changes in the webshop itself. I have no influence, nor is the company obliged to inform me about changes, because this project is only a demo project.
+> In the meantime, if the owners changed something on the webshop and some tests failed, maybe all the tests failed due to changes in the webshop itself. I have no influence, nor is the company obliged to inform me about changes, because this project is only a demo project.
 
 ### A list of technologies used within the project
 ***
