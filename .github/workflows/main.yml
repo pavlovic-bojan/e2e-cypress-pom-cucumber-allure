@@ -5,6 +5,8 @@ jobs:
   cypress-e2e:
     runs-on: ubuntu-latest
     container: cypress/browsers:latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v2
