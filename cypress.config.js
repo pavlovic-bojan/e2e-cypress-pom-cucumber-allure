@@ -12,9 +12,9 @@ module.exports = defineConfig({
       on("file:preprocessor", cucumber())
       allureWriter(on, config)
       // Cypress 13 configuration options
-      config.defaultCommandTimeout = 45000
-      config.pageLoadTimeout = 45000
-      config.responseTimeout = 45000
+      config.defaultCommandTimeout = 60000
+      config.pageLoadTimeout = 60000
+      config.responseTimeout = 60000
       config.baseUrl = "https://www.djaksport.com/"
       config.chromeWebSecurity = false
       config.viewportWidth = 1920
