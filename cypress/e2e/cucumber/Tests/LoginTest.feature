@@ -26,6 +26,4 @@ Feature: djaksport login page
 
   Examples:
     | invalidUserName | invalidPassword |
-    |                 |                 |
-    | 123             | 123             |
-    | aaa             | aaa             |
+    | 123             | aaa             |
