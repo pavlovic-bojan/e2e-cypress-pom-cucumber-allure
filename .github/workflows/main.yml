@@ -20,6 +20,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Check if not on gh-pages branch
+        if: ${{ github.ref != 'refs/heads/gh-pages' }}
+        run: echo "Not on gh-pages branch, proceeding with the workflow."
       - uses: actions/checkout@v2
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
