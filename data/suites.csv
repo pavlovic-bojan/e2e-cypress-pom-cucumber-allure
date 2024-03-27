@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Mar 27 15:56:27 GMT 2024","Wed Mar 27 15:56:37 GMT 2024","9583","","djaksport login page","","djaksport login page","I can navigate to djaksport","I can navigate to djaksport",""
-"failed","Wed Mar 27 15:58:03 GMT 2024","Wed Mar 27 15:59:20 GMT 2024","77648","","djaksport login page","","djaksport login page","Attempt log in with invalid login data (example #1)","Attempt log in with invalid login data (example #1)",""
-"failed","Wed Mar 27 15:56:47 GMT 2024","Wed Mar 27 15:58:03 GMT 2024","75355","","djaksport login page","","djaksport login page","I can log in with valid login data","I can log in with valid login data",""
-"passed","Wed Mar 27 15:56:37 GMT 2024","Wed Mar 27 15:56:47 GMT 2024","10680","","djaksport login page","","djaksport login page","I can navigate to the login page","I can navigate to the login page",""
