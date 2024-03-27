@@ -1,5 +1,13 @@
 name: End-to-end tests
-on: [ push ]
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to run the workflow on'
+        required: true
+        default: 'main'
+        options:
+          - main
 
 jobs:
   cypress-e2e:
