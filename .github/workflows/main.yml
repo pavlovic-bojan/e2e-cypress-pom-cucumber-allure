@@ -9,10 +9,12 @@ on:
     branches:
       - main
   workflow_dispatch:
-    input:
-      branches:
+    inputs:
+      branch:
+        - "*"
+        description: 'Branch name'
+        required: true
 
-    
 jobs:
   cypress-e2e:
     runs-on: ubuntu-latest
@@ -25,6 +27,8 @@ jobs:
         if: ${{ github.ref != 'refs/heads/gh-pages' }}
         run: echo "Not on gh-pages branch, proceeding with the workflow."
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.inputs.branch }}
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
