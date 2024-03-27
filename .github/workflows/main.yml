@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
     branch:
 
+  push:
+    branches:
+      - main
+
 jobs:
   cypress-e2e:
     runs-on: ubuntu-latest
