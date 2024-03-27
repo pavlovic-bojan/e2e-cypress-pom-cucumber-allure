@@ -1,12 +1,16 @@
 name: End-to-end tests
 on:
-  workflow_dispatch:
-    branch:
-
   push:
     branches:
       - main
-
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+  workflow_dispatch:
+    branch:
+    
 jobs:
   cypress-e2e:
     runs-on: ubuntu-latest
