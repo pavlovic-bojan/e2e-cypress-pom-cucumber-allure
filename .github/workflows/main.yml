@@ -9,7 +9,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-    branch:
+    branches:
+      - '*'
     
 jobs:
   cypress-e2e:
