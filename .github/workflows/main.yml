@@ -1,8 +1,7 @@
 name: End-to-end tests
 on:
   workflow_dispatch:
-    inputs:
-      branch:
+    branch:
 
 jobs:
   cypress-e2e:
