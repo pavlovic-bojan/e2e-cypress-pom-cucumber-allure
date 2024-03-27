@@ -11,7 +11,6 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        - "*"
         description: 'Branch name'
         required: true
 
@@ -28,7 +27,7 @@ jobs:
         run: echo "Not on gh-pages branch, proceeding with the workflow."
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.inputs.branch }}
+          ref: ${{ github.event.inputs.branch }}   # Ovdje koristimo dinamički odabranu granu
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
